@@ -72,7 +72,10 @@ $ npm search packageName
 
 npm root -g查看全局的包的安装路径 
 
-17、npm -v查看npm安装的版本  
+17、npm -v 
+    npm --version 查看npm安装的版本  
+
+18、npm info <pkg> version 查看某个模块最新发布版本信息，如npm info underscore version
 /*******************************************************************************************************/
 npm install webpack -g
 
