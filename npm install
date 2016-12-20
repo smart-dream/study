@@ -1,8 +1,0 @@
-npm install webpack -g
-
-安装的时候报了：
-
-npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules\webpack\node_modules\chokidar\node_modules\fsevents):
-npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.0.14: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
-
-查了下是因为 fsevent是mac osx系统的，在win或者Linux下使用了 所以会有警告，忽略即可
